@@ -87,7 +87,8 @@ int main()
         if (opcao == 's' || opcao == 'S') {
             continue;
         } else {
-            printf("")
+            printf("\nPrograma finalizado!\n");
+            break;
         }
 
     }
