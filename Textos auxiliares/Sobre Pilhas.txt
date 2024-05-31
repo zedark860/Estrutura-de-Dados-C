@@ -1,0 +1,8 @@
+2. Pilhas (Stacks)
+Descrição: Estrutura de dados que segue a política LIFO (Last In, First Out). Apenas o elemento no topo da pilha está acessível.
+Operações e Complexidades:
+Push (inserção no topo): O(1)
+Pop (remoção do topo): O(1)
+Peek (acesso ao topo): O(1)
+Verificação de vazio: O(1)
+Busca por valor: O(n)

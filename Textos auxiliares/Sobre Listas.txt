@@ -1,0 +1,57 @@
+1. Listas (Arrays, Listas Ligadas e Deques)
+Arrays (Vetores)
+Descrição: Estrutura de dados que armazena elementos em posições contíguas de memória.
+Operações e Complexidades:
+Acesso ao elemento: O(1)
+Inserção no final: O(1) (amortizado, se houver realocação de memória, O(n))
+Inserção em uma posição específica: O(n)
+Remoção do final: O(1)
+Remoção de uma posição específica: O(n)
+Busca por valor: O(n)
+
+Listas Ligadas (Linked Lists)
+Descrição: Estrutura de dados onde cada elemento (nó) contém um valor e uma referência ao próximo nó.
+Operações e Complexidades:
+Acesso ao elemento: O(n)
+Inserção no início: O(1)
+Inserção no final: O(1) (se houver ponteiro para o último nó, caso contrário O(n))
+Inserção em uma posição específica: O(n)
+Remoção do início: O(1)
+Remoção do final: O(n)
+Remoção de uma posição específica: O(n)
+Busca por valor: O(n)
+
+Listas Ligadas Duplamente (Doubly Linked Lists)
+Descrição: Cada nó contém uma referência ao próximo e ao nó anterior, permitindo a navegação em ambas as direções.
+Operações e Complexidades:
+Acesso ao elemento: O(n)
+Inserção no início: O(1)
+Inserção no final: O(1)
+Inserção em uma posição específica: O(n)
+Remoção do início: O(1)
+Remoção do final: O(1)
+Remoção de uma posição específica: O(n)
+Busca por valor: O(n)
+
+Listas Ligadas Circularmente (Circular Linked Lists)
+Descrição: A última referência aponta de volta para o primeiro nó, formando um ciclo.
+Operações e Complexidades:
+Acesso ao elemento: O(n)
+Inserção no início: O(1)
+Inserção no final: O(1) (se houver ponteiro para o último nó)
+Inserção em uma posição específica: O(n)
+Remoção do início: O(1)
+Remoção do final: O(n)
+Remoção de uma posição específica: O(n)
+Busca por valor: O(n)
+
+Deques (Double-ended Queues)
+Descrição: Estrutura de dados que permite inserções e remoções em ambas as extremidades (início e final).
+Operações e Complexidades:
+Inserção no início (push front): O(1)
+Inserção no final (push back): O(1)
+Remoção do início (pop front): O(1)
+Remoção do final (pop back): O(1)
+Peek no início (front): O(1)
+Peek no final (back): O(1)
+Busca por valor: O(n)

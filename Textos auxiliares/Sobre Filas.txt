@@ -1,0 +1,18 @@
+3. Filas (Queues)
+Descrição: Estrutura de dados que segue a política FIFO (First In, First Out). Elementos são adicionados no final e removidos do início.
+Operações e Complexidades:
+Enqueue (inserção no final): O(1)
+Dequeue (remoção do início): O(1)
+Peek (acesso ao início): O(1)
+Verificação de vazio: O(1)
+Busca por valor: O(n)
+
+Filas de Duas Pontas (Deque - Double-ended Queue)
+Descrição: Estrutura de dados que permite inserções e remoções tanto no início quanto no final.
+Operações e Complexidades:
+Inserção no início (push front): O(1)
+Inserção no final (push back): O(1)
+Remoção do início (pop front): O(1)
+Remoção do final (pop back): O(1)
+Peek no início (front): O(1)
+Peek no final (back): O(1)

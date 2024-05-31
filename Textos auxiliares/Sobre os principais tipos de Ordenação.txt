@@ -1,0 +1,35 @@
+1. Bubble Sort (Ordenação por Flutuação)
+Descrição: Repetidamente percorre a lista, comparando e trocando elementos adjacentes que estão na ordem errada. O maior elemento "flutua" para o final da lista a cada iteração.
+Complexidade: O(n²) no pior e no caso médio.
+Estável: Sim.
+In-place: Sim.
+
+2. Insertion Sort (Ordenação por Inserção)
+Descrição: Constrói a lista ordenada um elemento por vez, inserindo cada novo elemento na posição correta em relação aos elementos já ordenados.
+Complexidade: O(n²) no pior e no caso médio, mas O(n) no melhor caso (lista quase ordenada).
+Estável: Sim.
+In-place: Sim.
+
+3. Selection Sort (Ordenação por Seleção)
+Descrição: Seleciona o menor (ou maior) elemento da lista não ordenada e o troca com o primeiro elemento não ordenado. Repete para o restante da lista.
+Complexidade: O(n²) no pior, caso médio e melhor caso.
+Estável: Não (pode ser feito estável com modificações).
+In-place: Sim.
+
+4. Quick Sort (Ordenação Rápida)
+Descrição: Utiliza a técnica de divisão e conquista. Escolhe um pivô, particiona a lista em sublistas menores e maiores que o pivô, e recursivamente ordena as sublistas.
+Complexidade: O(n²) no pior caso (escolha ruim de pivôs), O(n log n) no caso médio.
+Estável: Não (pode ser feito estável com modificações).
+In-place: Sim (versão padrão).
+
+5. Shell Sort
+Descrição: Generaliza o Insertion Sort. Ordena elementos distantes uns dos outros e vai diminuindo a distância entre elementos comparados.
+Complexidade: Varia de acordo com a escolha da sequência de incrementos, mas geralmente é entre O(n log² n) e O(n^3/2).
+Estável: Não.
+In-place: Sim.
+
+6. Merge Sort (Ordenação por Intercalação)
+Descrição: Utiliza a técnica de divisão e conquista. Divide a lista em duas metades, ordena recursivamente cada metade e então intercala as duas metades ordenadas.
+Complexidade: O(n log n) no pior, caso médio e melhor caso.
+Estável: Sim.
+In-place: Não (requer espaço adicional para a intercalação).
